@@ -1,6 +1,7 @@
 # MCStarter
 
 Based on [Kawi](https://wordpress.org/themes/kawi/)
+
 [GitHub](https://github.com/MarieComet/mc-starter)
 
 MCStarter is a solid and clean theme for blogs and any other sites.
