@@ -73,7 +73,7 @@ The theme offers simple support for the built-in blocks of the new WordPress edi
 
 ## Installation
 * dans le dossier des thèmes :
-	* `git clone git@bitbucket.org:bsaxdd/matricehello.git`
+	* `git clone git@github.com:MarieComet/mc-starter.git`
 	* `cd mcstarter`
 	* `npm install`
 	* dupliquer le thème vers un dossier personnalisé : `grunt setup --projectname=nomduprojet` => remplacer `nomduprojet` par le nom du projet, en minuscule, sans espaces. `nomduprojet` est utilisé pour : dossier du thème, prefixes des fonctions, text-domain.
