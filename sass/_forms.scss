@@ -1,0 +1,82 @@
+/**************************
+ * Form elements
+ **************************/
+input,
+textarea,
+select {
+    background-color: white;
+    border: 1px solid $color-border;
+    border-radius: $border-radius;
+    max-width: 100%;
+    padding: $sp-3xs $sp-xs;
+    transition: all .25s ease-in-out;
+    
+    &::placeholder {
+        color: $grey-500;
+    }
+    
+    &:hover,
+    &:focus {
+        background-color: white;
+        box-shadow: 0 0 10px 0px $grey-300;
+        outline: none;
+    }
+}
+
+textarea {
+    width: 100%;
+}
+
+button,
+.button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    align-items: center;
+    background-color: $color-primary;
+    border: 1px solid $color-border;
+    border-radius: $border-radius;
+    color: white;
+    cursor: pointer;
+    display: inline-flex;
+    padding: $sp-3xs $sp-xs;
+    text-decoration: none;
+    transition: all .25s ease-in-out;
+        
+    &:hover,
+    &:focus {
+        background-color: $color-primary-darker;
+        box-shadow: 0 0 10px 0px $color-primary;
+    }
+
+    &:focus {
+        outline: 1px solid $grey-500;
+    }
+
+    &:visited {
+        color: #fff;
+    }
+    
+    &.button-secondary {
+        background-color: $color-secondary;
+        border-color: $color-secondary;
+        color: white;
+    }
+
+    &.button-tertiary {
+        background-color: transparent;
+        border: none;
+        color: $grey-900;
+        text-decoration: underline;
+    }
+
+    svg {
+        fill: currentcolor;
+        margin-left: $sp-3xs;
+    }
+}
+
+input[type="checkbox"],
+input[type="radio"]{
+    margin: 0 $sp-3xs;
+}
