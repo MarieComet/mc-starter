@@ -130,7 +130,7 @@ a {
   a:hover, a:focus, a:active {
     color: #2e3243; }
   a:focus {
-    outline: thin solid #3d4852; }
+    outline: thin dotted #2e3243; }
   a:hover, a:active {
     outline: 0; }
 

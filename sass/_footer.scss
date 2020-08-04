@@ -22,17 +22,11 @@
 }
 
 .footer-wrapper {
-    text-align: center;
-    @media screen and (min-width: $md){
-        display: flex;
-        justify-content: space-between;
-        text-align: left;
-    }
-    @media screen and (min-width: $lg){
-        align-items: center;
-        padding-top: $sp-sm;
-        padding-bottom: $sp-sm;
-    }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: $sp-sm;
+    padding-bottom: $sp-sm;
 }
 
 .footer-menu-section {
@@ -41,11 +35,8 @@
         font-size: $txt-xs;
     }
     @media screen and (min-width: $md){
-        text-align: right;
-    }
-    @media screen and (min-width: $lg){
-        align-items: flex-end;
         display: flex;
+        align-items: center;
     }
 }
 

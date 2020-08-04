@@ -139,7 +139,7 @@ a {
 		color: $color-link-hover;
 	}
 	&:focus {
-		outline: thin solid $grey-900;
+		outline: thin dotted $color-link-hover;
 	}
 	&:hover,
 	&:active {
